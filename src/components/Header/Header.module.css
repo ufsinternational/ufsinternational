@@ -1,0 +1,117 @@
+.header {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 20px; /* Add padding to the container */
+}
+
+.headerLogo {
+  height: 50px;
+  width: auto;
+}
+
+.navLink,
+.navLinkActive {
+  position: relative;
+  color: white;
+  margin-right: 20px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  transition: all 300ms ease-out;
+  padding-bottom: 0.3rem;
+}
+
+.navLink:hover,
+.navLinkActive {
+  color: var(--highlight);
+}
+
+.navLink::before,
+.navLinkActive::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  border-bottom: 5px solid transparent;
+  transition: width 300ms ease-out;
+}
+
+.navLink:hover::before,
+.navLinkActive::before {
+  width: 100%;
+  border-color: var(--highlight);
+}
+
+.mobileMenuIcon,
+.mobileMenuIconActive {
+  display: none;
+  cursor: pointer;
+}
+
+.mobileMenuIconBar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+@media (max-width: 875px) {
+  .mobileMenuIcon,
+  .mobileMenuIconActive {
+    display: block;
+    z-index: 1;
+  }
+
+  .mobileMenuIconActive .mobileMenuIconBar {
+    background-color: var(--highlight);
+  }
+
+  .mobileMenuIconActive .mobileMenuIconBar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .mobileMenuIconActive .mobileMenuIconBar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobileMenuIconActive .mobileMenuIconBar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .headerNav {
+    z-index: 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.4s;
+    padding-top: 3rem;
+    height: 100vh;
+  }
+
+  .navLink,
+  .navLinkActive {
+    margin: 1rem 0;
+  }
+
+  .mobileMenuOpen {
+    display: flex;
+    transform: translateY(0);
+  }
+}
