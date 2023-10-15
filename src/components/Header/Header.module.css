@@ -4,22 +4,27 @@
   padding: 20px;
 }
 
-.headerContainer {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px; /* Set a maximum width for the container */
-  margin: 0 auto; /* Center the container horizontally */
-  padding: 0 20px; /* Add padding to the container */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.headerLogo {
+.logo {
   height: 50px;
   width: auto;
+  z-index: 1;
 }
 
-.navLink,
-.navLinkActive {
+.navDesktop {
+  display: flex;
+  align-items: center;
+}
+
+.navLink {
   position: relative;
   color: white;
   margin-right: 20px;
@@ -30,12 +35,11 @@
 }
 
 .navLink:hover,
-.navLinkActive {
+.navLink.active {
   color: var(--highlight);
 }
 
-.navLink::before,
-.navLinkActive::before {
+.navLink::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -47,71 +51,19 @@
 }
 
 .navLink:hover::before,
-.navLinkActive::before {
+.navLink.active::before {
   width: 100%;
   border-color: var(--highlight);
 }
 
-.mobileMenuIcon,
-.mobileMenuIconActive {
-  display: none;
-  cursor: pointer;
-}
-
-.mobileMenuIconBar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px 0;
-  transition: 0.4s;
-}
-
-@media (max-width: 875px) {
-  .mobileMenuIcon,
-  .mobileMenuIconActive {
-    display: block;
-    z-index: 1;
+@media screen and (max-width: 768px) {
+  .container {
+    justify-content: center;
   }
-
-  .mobileMenuIconActive .mobileMenuIconBar {
-    background-color: var(--highlight);
-  }
-
-  .mobileMenuIconActive .mobileMenuIconBar:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .mobileMenuIconActive .mobileMenuIconBar:nth-child(2) {
-    opacity: 0;
-  }
-
-  .mobileMenuIconActive .mobileMenuIconBar:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-
-  .headerNav {
-    z-index: 0;
+  .navDesktop {
     display: none;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: var(--color-primary);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: transform 0.4s;
-    padding-top: 3rem;
-    height: 100vh;
   }
-
-  .navLink,
-  .navLinkActive {
-    margin: 1rem 0;
-  }
-
-  .mobileMenuOpen {
-    display: flex;
-    transform: translateY(0);
+  .navLink {
+    color: black;
   }
 }

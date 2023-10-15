@@ -1,22 +1,24 @@
-import styles from "./Header.module.css"
 import Image from "next/image"
-import HeaderLinks from "./HeaderLinks"
+import MenuMobile from "./MenuMobile"
+import MenuDesktop from "./MenuDesktop"
+import styles from "./Header.module.css"
 
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.headerContainer}>
-        <a className={styles.headerLogo} href="/">
+      <div className={styles.container}>
+        <a href="/" className={styles.logo}>
           <Image
             src="/logo.png"
             alt="UFS Logo"
             width={248}
             height={78}
-            className={styles.headerLogo}
+            className={styles.logo}
             priority
           />
         </a>
-        <HeaderLinks styles={styles} />
+        <MenuMobile />
+        <MenuDesktop styles={styles} />
       </div>
     </header>
   )
