@@ -33,3 +33,35 @@ body {
   font-weight: 900;
   margin-bottom: 2rem;
 }
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Animations */
+
+@keyframes spring {
+  0% {
+    transform: translateY(0) scale3d(0.98, 0.98, 1);
+  }
+  40% {
+    transform: translateY(-3px) scale3d(1, 1, 1);
+  }
+  60% {
+    transform: translateY(-3px) scale3d(1.03, 1.03, 1);
+  }
+  100% {
+    transform: translateY(-2px) scale3d(1, 1, 1);
+  }
+}
+
+@keyframes springback {
+  0% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0) scale3d(0.96, 0.96, 1);
+  }
+}
