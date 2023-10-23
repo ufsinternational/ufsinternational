@@ -20,7 +20,7 @@ const Card = (params) => {
 
   return (
     <div className={styles.card}>
-      <img src={params.main_image} />
+      <img src={params.main_image} alt="Logo Img" />
       <div className={styles.author}>
         <img src={params.author_image} alt="Imagen del autor" />
         <div className={styles.author_details}>
@@ -42,7 +42,7 @@ const Card = (params) => {
           <p>{params.views}</p>
         </div>
         <div className={styles.data_icons}>
-          <i class="bi bi-chat-left"></i>
+          <i className="bi bi-chat-left"></i>
           <p>{params.comments}</p>
         </div>
         <div

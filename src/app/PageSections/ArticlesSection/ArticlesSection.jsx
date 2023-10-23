@@ -43,54 +43,23 @@ const ArticleSection = () => {
         </div>
       </div>
       <div className={styles.cards}>
-        <Card
-          name="UFS | Website Editor"
-          date="6 dic 2022"
-          main_image="https://static.wixstatic.com/media/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png/v1/fill/w_264,h_199,fp_0.50_0.50,q_95,enc_auto/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png"
-          alt="Imagen del contenido"
-          title="Una nueva investigación Arqueológica"
-          description="Esta es una descripción de la tarjeta"
-          author_image="https://static.wixstatic.com/media/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png"
-          views="3"
-          comments="10"
-          likes="6"
-        ></Card>
-        <Card
-          name="UFS | Website Editor"
-          date="6 dic 2022"
-          main_image="https://static.wixstatic.com/media/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png/v1/fill/w_264,h_199,fp_0.50_0.50,q_95,enc_auto/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png"
-          alt="Imagen del contenido"
-          title="Una nueva investigación Arqueológica"
-          description="Esta es una descripción de la tarjeta"
-          author_image="https://static.wixstatic.com/media/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png"
-          views="3"
-          comments="10"
-          likes="6"
-        ></Card>
-        <Card
-          name="UFS | Website Editor"
-          date="6 dic 2022"
-          main_image="https://static.wixstatic.com/media/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png/v1/fill/w_264,h_199,fp_0.50_0.50,q_95,enc_auto/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png"
-          alt="Imagen del contenido"
-          title="Una nueva investigación Arqueológica"
-          description="Esta es una descripción de la tarjeta"
-          author_image="https://static.wixstatic.com/media/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png"
-          views="3"
-          comments="10"
-          likes="6"
-        ></Card>
-        <Card
-          name="UFS | Website Editor"
-          date="6 dic 2022"
-          main_image="https://static.wixstatic.com/media/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png/v1/fill/w_264,h_199,fp_0.50_0.50,q_95,enc_auto/7b9ac7_25effea4e6db430d848a96cf0efe69d5~mv2.png"
-          alt="Imagen del contenido"
-          title="Una nueva investigación Arqueológica"
-          description="Esta es una descripción de la tarjeta"
-          author_image="https://static.wixstatic.com/media/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png"
-          views="3"
-          comments="10"
-          likes="6"
-        ></Card>
+        {Array(4)
+          .fill(0)
+          .map((_, i) => (
+            <Card
+              key={i}
+              name="UFS | Website Editor"
+              date="6 dic 2022"
+              main_image="/images/article.png"
+              alt="Imagen del contenido"
+              title="Una nueva investigación Arqueológica"
+              description="Esta es una descripción de la tarjeta"
+              author_image="https://static.wixstatic.com/media/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png"
+              views="3"
+              comments="10"
+              likes="6"
+            />
+          ))}
       </div>
     </div>
   )

@@ -3,7 +3,7 @@ import Image from "next/image"
 const Satellite = ({ styles }) => {
   return (
     <Image
-      src="/satellite.webp"
+      src="/images/satellite.webp"
       alt="Satellite"
       width={512}
       height={281}
