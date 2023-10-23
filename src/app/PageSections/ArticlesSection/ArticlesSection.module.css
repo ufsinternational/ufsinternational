@@ -1,0 +1,150 @@
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.titles h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.titles h2 em {
+  color: var(--highlight);
+  font-style: normal;
+}
+
+.titles h3 {
+  color: var(--highlight);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.blog {
+  display: flex;
+  cursor: pointer;
+}
+
+.card hr {
+  border: 1px solid;
+  opacity: 0.5;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  width: 100%;
+  padding: 2rem 3rem;
+}
+.card {
+  max-width: 400px;
+}
+
+.card img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.author {
+  display: flex;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+.author_details h4 {
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.author_details:hover {
+  cursor: pointer;
+}
+
+.author_name:hover {
+  color: var(--highlight);
+}
+
+.author img {
+  width: 40px;
+}
+
+.card_title {
+  padding: 0rem 1.5rem;
+  font-size: 1.3rem;
+}
+
+.card_title:hover {
+  color: var(--highlight);
+  cursor: pointer;
+}
+
+.card_description {
+  padding: 1.5rem;
+}
+
+.card_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.data_icons {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.data_icons:hover {
+  color: var(--highlight);
+  cursor: pointer;
+}
+
+.heart:hover {
+  color: red !important;
+  cursor: pointer;
+}
+
+.heart_fill {
+  color: red !important;
+}
+
+.data_icons p {
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+.data_icons i {
+  padding-right: 0.6rem;
+  font-weight: 100;
+}
+
+.card_description {
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1160px) {
+  .titles {
+    margin-top: 10rem;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 2fr);
+  }
+}
+
+@media (max-width: 1024px) {
+  .titles {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .cards {
+    grid-template-columns: repeat(1, 4fr);
+    justify-items: center;
+  }
+  .titles h2 {
+    font-size: 2rem;
+  }
+}
