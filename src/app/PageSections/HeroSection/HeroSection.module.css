@@ -5,6 +5,31 @@
   height: calc(100vh - 100px);
 }
 
+.background_stars {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.background_stars img {
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.background_earth {
+  position: relative;
+  z-index: -1;
+  margin-top: 0rem;
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+  top: 0;
+}
+
 .mainSubsection {
   display: flex;
   flex-direction: column;
