@@ -4,7 +4,7 @@ import Card from "./Card"
 
 const ArticleSection = () => {
   return (
-    <div>
+    <div className={styles.article_section}>
       <div className={styles.titles}>
         <h2>
           Últimos <em>artículos</em>
