@@ -1,5 +1,6 @@
 import ActionAxis from "./PageSections/ActionAxis/ActionAxis"
 import ArticlesSection from "./PageSections/ArticlesSection/ArticlesSection"
+import Footer from "./PageSections/Footer/Footer"
 import HeroSection from "./PageSections/HeroSection/HeroSection"
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <ArticlesSection />
       <ActionAxis />
+      <Footer />
     </>
   )
 }
