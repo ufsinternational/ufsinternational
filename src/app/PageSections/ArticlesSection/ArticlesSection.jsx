@@ -54,7 +54,7 @@ const ArticleSection = () => {
               alt="Imagen del contenido"
               title="Una nueva investigación Arqueológica"
               description="Esta es una descripción de la tarjeta"
-              author_image="https://static.wixstatic.com/media/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28f530_017595be2395498f9695142f3bb0c367%7Emv2.png"
+              author_image="/images/author.png"
               views="3"
               comments="10"
               likes="6"

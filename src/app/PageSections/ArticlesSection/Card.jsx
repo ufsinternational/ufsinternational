@@ -9,20 +9,24 @@ const Card = (params) => {
   const [count, setCount] = useState(Number(params.likes))
 
   const handleClick = () => {
+    setIsFilled(!isFilled)
     if (isFilled) {
-      setIsFilled(false)
       setCount(count - 1)
     } else {
-      setIsFilled(true)
       setCount(count + 1)
     }
   }
 
   return (
     <div className={styles.card}>
-      <img src={params.main_image} alt="Logo Img" />
+      <Image src={params.main_image} alt="Logo Img" width={500} height={500} />
       <div className={styles.author}>
-        <img src={params.author_image} alt="Imagen del autor" />
+        <Image
+          src={params.author_image}
+          alt="Imagen del autor"
+          width={500}
+          height={500}
+        />
         <div className={styles.author_details}>
           <h4 className={styles.author_name}>{params.name}</h4>
           <h4>{params.date}</h4>
@@ -46,8 +50,9 @@ const Card = (params) => {
           <p>{params.comments}</p>
         </div>
         <div
-          className={`${styles.data_icons} ${styles.heart}`}
-          style={{ color: `${isFilled ? "red" : "white"}` }}
+          className={`${styles.data_icons} ${styles.heart} ${
+            isFilled ? styles.heart_filled : styles.heart_empty
+          }`}
           onClick={handleClick}
         >
           <i id="heart" className={`bi bi-heart${isFilled ? "-fill" : ""}`}></i>

@@ -6,12 +6,16 @@ import Satellite from "./Satellite"
 const HeroSection = () => {
   return (
     <>
-      <section>
+      <section className={styles.heroSection}>
         <div className={styles.hero}>
-          <figure className={styles.background_stars}>
-            <img
-              src="https://static.wixstatic.com/media/28f530_3b766a8f10554bd7ae5343a33ff4712f~mv2.jpg/v1/fill/w_1288,h_858,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/28f530_3b766a8f10554bd7ae5343a33ff4712f~mv2.jpg"
+          <figure className={styles.backgroundStars}>
+            <Image
+              className={styles.backgroundStarsImg}
+              src="/images/stars-bg.jpg"
               alt="Stars"
+              width={500}
+              height={500}
+              unoptimized
             />
           </figure>
 
@@ -47,12 +51,17 @@ const HeroSection = () => {
             </div>
           </div>
         </div>
+        <div className={styles.backgroundEarthWrapper}>
+          <Image
+            src="/images/earth-bg.png"
+            alt="Earth"
+            width={500}
+            height={500}
+            className={styles.backgroundEarth}
+            unoptimized
+          />
+        </div>
       </section>
-      <img
-        src="https://static.wixstatic.com/media/28f530_cd58cec5c298416996c94e98d29f0c7f~mv2.png/v1/fill/w_1030,h_400,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/28f530_cd58cec5c298416996c94e98d29f0c7f~mv2.png"
-        alt="Earth"
-        className={styles.background_earth}
-      />
     </>
   )
 }

@@ -8,7 +8,7 @@ const Satellite = ({ styles }) => {
       width={512}
       height={281}
       className={styles.image}
-      priority
+      unoptimized
     />
   )
 }
