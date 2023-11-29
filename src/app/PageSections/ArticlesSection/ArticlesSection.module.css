@@ -55,6 +55,7 @@
 
 .card img {
   width: 100%;
+  height: auto;
   cursor: pointer;
 }
 
@@ -112,12 +113,21 @@
 }
 
 .heart:hover {
-  color: red !important;
+  color: red;
   cursor: pointer;
 }
 
-.heart_fill {
-  color: red !important;
+.heart_empty:global {
+  animation: pulseBack 500ms ease forwards;
+}
+
+.heart_filled {
+  color: red;
+  cursor: pointer;
+}
+
+.heart_filled:global {
+  animation: pulse 500ms ease forwards;
 }
 
 .data_icons p {

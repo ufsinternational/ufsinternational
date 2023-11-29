@@ -36,26 +36,26 @@ function Footer() {
           <div className={styles.foot_followus}>
             <div className={styles.main_social}>
               <h4>Síguenos</h4>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-tiktok"></i>
-              <i class="bi bi-twitter-x"></i>
-              <i class="bi bi-linkedin"></i>
-              <i class="bi bi-youtube"></i>
+              <i className="bi bi-facebook"></i>
+              <i className="bi bi-instagram"></i>
+              <i className="bi bi-tiktok"></i>
+              <i className="bi bi-twitter-x"></i>
+              <i className="bi bi-linkedin"></i>
+              <i className="bi bi-youtube"></i>
             </div>
             <div className={styles.mx_media}>
               <h5>México</h5>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-tiktok"></i>
-              <i class="bi bi-spotify"></i>
+              <i className="bi bi-facebook"></i>
+              <i className="bi bi-instagram"></i>
+              <i className="bi bi-tiktok"></i>
+              <i className="bi bi-spotify"></i>
             </div>
             <div className={styles.cr_media}>
               <h5>Costa Rica</h5>
-              <i class="bi bi-facebook"></i>
-              <i class="bi bi-instagram"></i>
-              <i class="bi bi-tiktok"></i>
-              <i class="bi bi-spotify"></i>
+              <i className="bi bi-facebook"></i>
+              <i className="bi bi-instagram"></i>
+              <i className="bi bi-tiktok"></i>
+              <i className="bi bi-spotify"></i>
             </div>
           </div>
         </div>

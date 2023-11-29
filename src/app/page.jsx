@@ -1,4 +1,4 @@
-import ActionSection from "./PageSections/ActionSection/ActionSection"
+import ActionAxis from "./PageSections/ActionAxis/ActionAxis"
 import ArticlesSection from "./PageSections/ArticlesSection/ArticlesSection"
 import Donate from "./PageSections/Donate/Donate"
 import Footer from "./PageSections/Footer/Footer"
@@ -9,8 +9,7 @@ export default function Home() {
     <>
       <HeroSection />
       <ArticlesSection />
-      <ActionSection />
-      <Donate />
+      <ActionAxis />
       <Footer />
     </>
   )
