@@ -1,0 +1,72 @@
+.titles {
+  padding: 80px;
+}
+
+.titles h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+}
+
+.titles h2 em {
+  color: var(--highlight);
+  font-style: normal;
+}
+
+.background_donate {
+  width: 80%;
+  background-image: url("https://static.wixstatic.com/media/28f530_b4a5e5415d40427b8238f70b9ee53f19~mv2.jpg/v1/fill/w_1264,h_400,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Rectangle-35.jpg");
+  height: 350px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.container_donate {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 2rem;
+  text-decoration: none;
+}
+
+.button:hover,
+.highlightBg {
+  background: var(--highlight);
+  border: 1px solid var(--highlight);
+  color: black;
+}
+
+.button:global {
+  animation: springback 400ms ease forwards;
+}
+
+.button:hover:global {
+  animation: spring 400ms ease forwards;
+}
+
+.background_donate img {
+  position: relative;
+  left: 80px;
+  width: 800px;
+}
