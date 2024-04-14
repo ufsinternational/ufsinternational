@@ -1,0 +1,28 @@
+{
+  "navbar": [
+    {
+      "text": "About",
+      "url": "/en/about"
+    },
+    {
+      "text": "Network",
+      "url": "/en/network"
+    },
+    {
+      "text": "Join us",
+      "url": "/en/join"
+    },
+    {
+      "text": "Contact",
+      "url": "/en/contact"
+    },
+    {
+      "text": "News",
+      "url": "/en/news"
+    }
+  ],
+  "about": {
+    "title": "About us",
+    "content": "We are a group of people who are passionate about the environment and want to make a difference. We believe that by working together we can make a positive impact on the world. Our goal is to create a network of like-minded individuals who share our vision and are committed to taking action. We are always looking for new members to join us and help us achieve our goals. If you are interested in making a difference and want to be part of a community that is dedicated to creating a sustainable future, then we would love to hear from you."
+  }
+}
