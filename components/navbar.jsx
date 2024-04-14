@@ -4,7 +4,6 @@ import { getDictionary } from "@/lib/langDictionaries"
 export const Navbar = async ({ lang }) => {
   const dictionary = await getDictionary(lang)
   const navbarLinks = dictionary.navbar
-  console.log(navbarLinks)
 
   return (
     <>
