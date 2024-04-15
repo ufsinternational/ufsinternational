@@ -1,6 +1,11 @@
 {
   "navbar": [
     {
+      "text": "Inicio",
+      "url": "/",
+      "onlyOnMobile": true
+    },
+    {
       "text": "Nosotros",
       "url": "/about"
     },
@@ -21,8 +26,18 @@
       "url": "/news"
     }
   ],
-  "about": {
-    "title": "Sobre nosotros",
-    "content": "Somos una organización sin fines de lucro que busca mejorar la calidad de vida de las personas con discapacidad visual en Chile. Nuestro objetivo es fomentar la inclusión social y laboral de las personas con discapacidad visual, a través de la tecnología y la educación."
+  "home": {
+    "main": {
+      "title": "Bienvenid@ a la",
+      "subtitle": "United Federation of Science",
+      "description": "Somos una organización internacional no gubernamental (OING) dedicada a la promoción de conocimiento científico.",
+      "mainButton": "Para gente curiosa",
+      "quote": "La ciencia no es más que una herramienta para comprender el pasado, estudiar el presente y construir el futuro",
+      "quoteAuthor": "César Aspiros, fundador."
+    },
+    "whatWeDo": {
+      "title": "¿Qué hacemos?",
+      "description": "Nuestro objetivo es promover la ciencia y la educación científica en todo el mundo. Para ello, organizamos eventos, conferencias, talleres y actividades educativas para fomentar la curiosidad y el interés por la ciencia."
+    }
   }
 }

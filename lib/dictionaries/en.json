@@ -1,6 +1,11 @@
 {
   "navbar": [
     {
+      "text": "Home",
+      "url": "/en",
+      "onlyOnMobile": true
+    },
+    {
       "text": "About",
       "url": "/en/about"
     },
@@ -21,8 +26,9 @@
       "url": "/en/news"
     }
   ],
-  "about": {
-    "title": "About us",
-    "content": "We are a group of people who are passionate about the environment and want to make a difference. We believe that by working together we can make a positive impact on the world. Our goal is to create a network of like-minded individuals who share our vision and are committed to taking action. We are always looking for new members to join us and help us achieve our goals. If you are interested in making a difference and want to be part of a community that is dedicated to creating a sustainable future, then we would love to hear from you."
+  "home": {
+    "title": "Welcome to United Federation of Science",
+    "description": "The United Federation of Science is a global network of scientists and science enthusiasts who are committed to promoting science and scientific values in society.",
+    "mainButton": "for curious people"
   }
 }

@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import "@/app/globals.css"
 import { ModeToggler } from "@/components/mode-toggler"
 import { cn } from "@/lib/utils"
-import { Navbar } from "@/components/navbar"
+import { Navbar } from "@/components/navbar/navbar"
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,10 +19,12 @@ export const metadata = {
 export default function RootLayout({ children, params: { lang } }) {
   return (
     <html lang={lang} suppressHydrationWarning>
-      <body className={cn(poppins.className, "min-h-screen w-full")}>
+      <body className={poppins.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar lang={lang} />
-          <main className="mt-[20px]">{children}</main>
+          <main className="md:max-w-screen-lg lg:max-w-screen-xl mx-auto">
+            {children}
+          </main>
           <ModeToggler />
         </ThemeProvider>
       </body>

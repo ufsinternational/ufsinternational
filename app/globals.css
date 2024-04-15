@@ -54,11 +54,13 @@
     --muted: 0 0% 14.9%;
     --muted-foreground: 0 0% 63.9%;
 
-    --accent: 0 0% 14.9%;
+    --accent: 259, 80%, 71%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
+
+    --tilt: 262, 51%, 38%;
 
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
@@ -71,17 +73,19 @@
     @apply border-border;
   }
   body {
-    --base-color: 262, 51%, 38%;
     background-color: hsl(var(--background));
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100%;
 
     background: radial-gradient(
         circle at 0% 40%,
-        hsl(var(--base-color), 0.5) 0%,
-				transparent 30%
+        hsl(var(--tilt), 0.5) 0%,
+        transparent 30%
       ),
       radial-gradient(
         circle at 100% 0%,
-        hsl(var(--base-color), 0.5) 0%,
+        hsl(var(--tilt), 0.5) 0%,
         hsl(var(--background), 1) 30%
       ),
       hsl(var(--background));
