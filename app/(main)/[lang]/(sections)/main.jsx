@@ -9,7 +9,7 @@ export const MainSection = ({ content }) => {
         minHeight: "calc(100vh - 5rem)",
       }}
     >
-      <div className="hidden md:block h-screen w-screen absolute top-0 left-0 bg-gradient-to-b from-transparent to-black from-90%" />
+      {/* <div className="hidden md:block h-screen w-screen absolute top-0 left-0 bg-gradient-to-b from-transparent to-black from-90%" /> */}
       <div className="max-w-[500px] px-4 flex flex-col items-center md:justify-start md:items-start mb-24 md:mb-0">
         <h1 className="text-4xl md:text-5xl font-semibold mb-4 md:mb-8 leading-[1.2] md:leading-[1.5]">
           {content.title}
