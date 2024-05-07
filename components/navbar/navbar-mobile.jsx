@@ -3,7 +3,7 @@
 import { useState } from "react"
 import { IoMdMenu } from "react-icons/io"
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button-provider"
 
 import {
   Sheet,

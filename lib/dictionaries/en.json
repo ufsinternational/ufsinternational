@@ -27,8 +27,100 @@
     }
   ],
   "home": {
-    "title": "Welcome to United Federation of Science",
-    "description": "The United Federation of Science is a global network of scientists and science enthusiasts who are committed to promoting science and scientific values in society.",
-    "mainButton": "for curious people"
+    "main": {
+      "title": "Welcome to the",
+      "subtitle": "United Federation of Science",
+      "description": "The United Federation of Science is a global network of scientists and science enthusiasts who are committed to promoting science and scientific values in society.",
+      "mainButton": "For the curious ones",
+      "quote": "Science is nothing more than a tool to understand the past, study the present, and build the future",
+      "quoteAuthor": "César Aspiros, our founder."
+    },
+    "whatWeDo": {
+      "title": "What we do",
+      "description": "Our objective is to promote science and scientific education worldwide. To achieve this, we organize events, conferences, workshops and educational activities to foster the curiosity and interest."
+    }
+  },
+  "about": {
+    "history": {
+      "title": "Our History",
+      "text": [
+        "Founded with the vision of a future where science and technology serve as the cornerstone for societal advancement, ",
+        "the United Federation of Science has been at the forefront of scientific innovation and education. ",
+        "Our journey began with a group of dedicated scientists and enthusiasts who believed in the power of science to shape the world. ",
+        "Over the years, we have grown into a global network, promoting scientific literacy and fostering technological advancements. ",
+        "The history of the organization is a testament to our commitment to a future where science is accessible to all and is instrumental in solving the world's most pressing challenges."
+      ],
+      "image": "https://via.placeholder.com/300"
+    },
+    "position": {
+      "mission": {
+        "title": "Mission",
+        "text": [
+          "Our \bmission\b is to promote science and scientific education worldwide. ",
+          "We believe that science is a powerful tool for understanding the world around us and for solving the most pressing challenges facing humanity.\n\n",
+          "By fostering scientific literacy and curiosity, we aim to inspire the next generation of scientists and innovators. ",
+          "Through our events, conferences, workshops, and educational activities, we seek to create a global community of science enthusiasts who are committed to advancing scientific knowledge and values."
+        ]
+      },
+      "vision": {
+        "title": "Vision",
+        "text": [
+          "We aspire for a future where the pillars of societal progress are science and technology. ",
+          "Our dream is a world where everyone has a basic understanding of science, and where the principles of curiosity, skepticism, and critical thinking are universally accepted.\n\n",
+          "The \bvision\b, through the global promotion of science and scientific education, is to foster a society that is well-informed and actively involved, capable of tackling the intricate issues of the 21st century. ",
+          "We are confident that by collaborating, we can shape a superior future for everyone."
+        ]
+      },
+      "values": {
+        "title": "Values",
+        "text": [
+          "At the United Federation of Science, we are guided by a set of core values that inform everything we do.",
+          "\n\nThese \bvalues\b include:\n\n",
+          "\bCuriosity\b: The driving force behind scientific discovery and innovation.\n",
+          "\bSkepticism\b: A tool for questioning assumptions and challenging conventional wisdom.\n",
+          "\bIntegrity\b: We are committed to upholding the highest standards of scientific integrity and ethics.\n",
+          "\bInclusivity\b: Striving to create a diverse and inclusive community that welcomes people from all backgrounds.\n",
+          "\bCollaboration\b: The most essential value for achieving scientific breakthroughs, knowledge, and solving complex problems.\n",
+          "\bExcellence\b: In all that we do, from scientific research to educational outreach."
+        ]
+      }
+    },
+    "members": {
+      "title": "Meet our members",
+      "profiles": {
+        "name": [
+          "John Doe", "Jane Smith", "Alice Johnson", "Bob Brown", 
+          "Anthony White", "Emily Black", "Michael Green", "Sarah Blue", 
+          "David Red", "Laura Yellow"],
+        "position": [
+          "Astrophysicist", "Biologist", "Chemist", "Geologist",
+          "Physicist", "Mathematician", "Neuroscientist", "Ecologist",
+          "Computer Scientist", "Engineer"],
+        "image": [
+          "https://via.placeholder.com/150", 
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150"
+        ],
+        "description": [
+          "Has a passion for studying the cosmos and unraveling the mysteries of the universe.",
+          "Dedicated to understanding the complexities of life and the natural world.",
+          "Fascinated by the properties of matter and the interactions between atoms and molecules.",
+          "Studies the Earth's structure, composition, and processes to better understand its history and future.",
+          "Has explored the fundamental forces and particles that govern the universe.",
+          "She loves solving complex problems and uncovering the beauty of numbers.",
+          "Investigates the brain and nervous system to unlock the secrets of human cognition and behavior.",
+          "She studies the interactions between organisms and their environment to promote biodiversity and conservation.",
+          "Develops algorithms and software to solve computational problems and advance technology.",
+          "Designs and builds innovative solutions to address the world's most pressing challenges."
+        ]
+      }
+    }
   }
 }

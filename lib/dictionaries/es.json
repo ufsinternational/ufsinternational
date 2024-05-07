@@ -39,5 +39,15 @@
       "title": "¿Qué hacemos?",
       "description": "Nuestro objetivo es promover la ciencia y la educación científica en todo el mundo. Para ello, organizamos eventos, conferencias, talleres y actividades educativas para fomentar la curiosidad y el interés por la ciencia."
     }
+  },
+  "about": {
+    "main": {
+      "title": "Bienvenid@ a la",
+      "subtitle": "United Federation of Science",
+      "description": "Somos una organización internacional no gubernamental (OING) dedicada a la promoción de conocimiento científico.",
+      "mainButton": "Para gente curiosa",
+      "quote": "La ciencia no es más que una herramienta para comprender el pasado, estudiar el presente y construir el futuro",
+      "quoteAuthor": "César Aspiros, fundador."
+    }
   }
 }
