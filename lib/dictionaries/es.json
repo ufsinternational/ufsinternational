@@ -39,5 +39,88 @@
       "title": "¿Qué hacemos?",
       "description": "Nuestro objetivo es promover la ciencia y la educación científica en todo el mundo. Para ello, organizamos eventos, conferencias, talleres y actividades educativas para fomentar la curiosidad y el interés por la ciencia."
     }
+  },
+  "about": {
+    "history": {
+      "title": "Nuestra Historia",
+      "text": [
+        "Fundada con la visión de un futuro donde la ciencia y la tecnología sirven como piedra angular para el avance de la sociedad, ",
+        "la Federación Unida de Ciencia ha estado a la vanguardia de la innovación y la educación científica. ",
+        "Nuestro viaje comenzó con un grupo de científicos y entusiastas dedicados que creían en el poder de la ciencia para dar forma al mundo. ",
+        "A lo largo de los años, nos hemos convertido en una red global, promoviendo la alfabetización científica y fomentando los avances tecnológicos. ",
+        "La historia de la organización es un testimonio de nuestro compromiso con un futuro donde la ciencia es accesible para todos y es instrumental para resolver los desafíos más urgentes del mundo."
+      ],
+      "image": "https://via.placeholder.com/300"
+    },
+    "position": {
+      "mission": {
+        "title": "Misión",
+        "text": [
+          "Nuestra \bmisión\b es promover la ciencia y la educación científica en todo el mundo. ",
+          "Creemos que la ciencia es una herramienta poderosa para entender el mundo que nos rodea y para resolver los desafíos más urgentes que enfrenta la humanidad.\n\n",
+          "Fomentando la alfabetización científica y la curiosidad, aspiramos a inspirar a la próxima generación de científicos e innovadores. ",
+          "A través de nuestros eventos, conferencias, talleres y actividades educativas, buscamos crear una comunidad global de entusiastas de la ciencia que están comprometidos con el avance del conocimiento y los valores científicos."
+        ]
+      },
+      "vision": {
+        "title": "Visión",
+        "text": [
+          "Aspiramos a un futuro donde los pilares del progreso social sean la ciencia y la tecnología. ",
+          "Nuestro sueño es un mundo donde todos tengan un entendimiento básico de la ciencia, y donde los principios de la curiosidad, el escepticismo y el pensamiento crítico sean universalmente aceptados.\n\n",
+          "La \bvisión\b, a través de la promoción global de la ciencia y la educación científica, es fomentar una sociedad que esté bien informada y activamente involucrada, capaz de abordar los problemas intrincados del siglo 21. "
+        ]
+      },
+      "values": {
+        "title": "Valores",
+        "text": [
+          "En la Federación Unida de Ciencia, nos guiamos por un conjunto de valores fundamentales que informan todo lo que hacemos.",
+          "\n\nEstos \bvalores\b incluyen:\n\n",
+          "\bCuriosidad\b: La fuerza impulsora detrás del descubrimiento científico y la innovación.\n",
+          "\bEscepticismo\b: Una herramienta para cuestionar suposiciones y desafiar la sabiduría convencional.\n",
+          "\bIntegridad\b: Estamos comprometidos a mantener los más altos estándares de integridad científica y ética.\n",
+          "\bInclusividad\b: Nos esforzamos por crear una comunidad diversa e inclusiva que dé la bienvenida a personas de todos los orígenes.\n",
+          "\bColaboración\b: El valor más esencial para lograr avances científicos, conocimiento y resolver problemas complejos.\n",
+          "\bExcelencia\b: En todo lo que hacemos, desde la investigación científica hasta la divulgación educativa."
+        ]
+      }
+    },
+    "members": {
+      "title": "Conócenos",
+      "profiles": {
+        "name": [
+          "César Aspiros", "María López", "Carlos Pérez", "Ana García", "Javier Ruiz",
+          "Laura Martínez", "Sofía Rodríguez", "Elena Sánchez", "Pedro Gómez", "Isabel Fernández"
+        ],
+        "position": [
+          "Fundador", "Bióloga", "Químico", "Geóloga",
+          "Astrofísico", "Matemática", "Neurocientífica", "Ecologista",
+          "Programador", "Ingeniera"
+        ],
+        "image": [
+          "https://via.placeholder.com/150", 
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150",
+          "https://via.placeholder.com/150"
+        ],
+        "description": [
+          "Visionario y emprendedor social que ha dedicado su vida a promover la educación científica en todo el mundo.",
+          "Dedicado a entender las complejidades de la vida y el mundo natural.",
+          "Fascinado por las propiedades de la materia y las interacciones entre átomos.",
+          "Estudia la estructura, composición y procesos de la Tierra para entender mejor su trayectoria de vida.",
+          "Ha explorado las fuerzas fundamentales y las partículas que gobiernan el universo.",
+          "Le encanta resolver problemas complejos y descubrir la belleza de los números.",
+          "Investiga el cerebro y el sistema nervioso para desbloquear los secretos de la cognición y el comportamiento humano.",
+          "Estudia las interacciones entre los organismos y su entorno para promover la conservación de la biodiversidad.",
+          "Desarrolla algoritmos y software para resolver problemas computacionales.",
+          "Diseña y construye soluciones innovadoras para abordar los desafíos más urgentes del mundo."
+        ]
+      }
+    }
   }
 }
