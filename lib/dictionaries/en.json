@@ -89,11 +89,11 @@
       "title": "Meet our members",
       "profiles": {
         "name": [
-          "John Doe", "Jane Smith", "Alice Johnson", "Bob Brown", 
-          "Anthony White", "Emily Black", "Michael Green", "Sarah Blue", 
-          "David Red", "Laura Yellow"],
+          "César Aspiros", "María López", "Carlos Pérez", "Ana García", "Javier Ruiz",
+          "Laura Martínez", "Sofía Rodríguez", "Elena Sánchez", "Pedro Gómez", "Isabel Fernández"
+        ],
         "position": [
-          "Astrophysicist", "Biologist", "Chemist", "Geologist",
+          "Founder", "Biologist", "Chemist", "Geologist",
           "Physicist", "Mathematician", "Neuroscientist", "Ecologist",
           "Computer Scientist", "Engineer"],
         "image": [
@@ -109,7 +109,7 @@
           "https://via.placeholder.com/150"
         ],
         "description": [
-          "Has a passion for studying the cosmos and unraveling the mysteries of the universe.",
+          "Visionary entrepeneur who has dedicated his life to promoting science worldwide.",
           "Dedicated to understanding the complexities of life and the natural world.",
           "Fascinated by the properties of matter and the interactions between atoms and molecules.",
           "Studies the Earth's structure, composition, and processes to better understand its history and future.",
