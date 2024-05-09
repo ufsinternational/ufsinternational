@@ -90,4 +90,20 @@
       ),
       hsl(var(--background));
   }
+
+  @keyframes colorChange { /*For the color transition on \b delimiters within the language dictionaries*/
+    0%, 100% {
+      color: rgb(234, 155, 222);
+    }
+    50% {
+      color: rgb(160, 0, 196);
+    }
+  }
+  
+  .boldUnderline {
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    animation: colorChange 2s infinite;
+  }
+  
 }
