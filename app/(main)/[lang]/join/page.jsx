@@ -1,8 +1,8 @@
 import { getDictionary } from "@/lib/langDictionaries"
 
-async function NetworkPage({ params: { lang } }) {
+async function JoinPage({ params: { lang } }) {
   const dictionary = await getDictionary(lang)
-  const about = dictionary?.network || { title: 'Error' }
+  const about = dictionary?.join || { title: 'Error' }
   return (
     <div>
       <h1>{about.title}</h1>
@@ -10,4 +10,4 @@ async function NetworkPage({ params: { lang } }) {
   )
 }
 
-export default NetworkPage
+export default JoinPage

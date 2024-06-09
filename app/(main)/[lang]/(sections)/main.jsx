@@ -1,5 +1,5 @@
 import { GlobeDemo } from "@/components/globe-provider"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button-provider"
 
 export const MainSection = ({ content }) => {
   return (
